@@ -7,7 +7,7 @@ class Password:
     def __init__(self):
         self.password_storage = []
 
-    def generation_password(string_length):
+    def generation_password(self, string_length):
         characters = string.ascii_letters + string.digits
         password = ''.join(secrets.choice(characters) for _ in range(string_length))
 

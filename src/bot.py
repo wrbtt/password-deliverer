@@ -81,5 +81,6 @@ def start_command(message):
     bot.send_message(message.chat.id, help_text)
 
 
+
 if __name__ == '__main__':
     bot.polling(none_stop=True, interval=0)
